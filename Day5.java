@@ -6,10 +6,10 @@ public class Day5 {
          * Soal 1 : Mendeklarasikan berat dan tinggi.
          */
 
-        // Deklarasi dan inisialisasi berat badan
-        double beratBadan = 55.5;
+        // Berat badan menggunakan tipe data float
+        float beratBadan = 55.5;
 
-        // Deklarasi dan inisialisasi tinggi badan
+        // Tinggi badan menggunakan tipe data double
         double tinggiBadan = 160.25;
 
         // Mencetak berat badan menggunakan printf
