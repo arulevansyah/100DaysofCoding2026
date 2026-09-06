@@ -7,7 +7,7 @@ public class Day5 {
          */
 
         // Berat badan menggunakan tipe data float
-        float beratBadan = 55.5;
+        float beratBadan = 55.5f;
 
         // Tinggi badan menggunakan tipe data double
         double tinggiBadan = 160.25;
