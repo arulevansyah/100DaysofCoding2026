@@ -4,7 +4,7 @@ public class day9 {
          * Day 9 - Constant (Final Variable)
          */
 
-         // Constant menggunakan kayword final
+         // Constant menggunakan keyword final
          final String NAMA = "Arul Evansyah";
          final int ANGKATAN = 2026;
          final String JURUSAN = "Informatika";
