@@ -6,7 +6,7 @@ import java.util.Scanner;
             // Membuat objek scanner untuk menerima input pengguna
             Scanner input = new Scanner(System.in);
 
-            // Mmebuat input scanner untuk menerima input dari pengguna
+            // Membuat input scanner untuk menerima input dari pengguna
             System.out.print("Masukkan nama: ");
             String nama = input.nextLine();
 
