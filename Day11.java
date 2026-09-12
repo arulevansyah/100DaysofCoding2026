@@ -26,7 +26,7 @@ import java.util.Scanner;
             System.out.printf("Nama\t\t: %s%n", nama);
             System.out.printf("Umur\t\t: %d tahun%n", umur);
             System.out.printf("Tinggi\t\t: %.1f cm%n", tinggi);
-            System.out.printf("Jenis kelamin\t\t: %c%n", jeniskelamin);
+            System.out.printf("Jenis kelamin\t: %c%n", jeniskelamin);
 
             // Menutup scanner
             input.close();
