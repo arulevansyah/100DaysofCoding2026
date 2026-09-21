@@ -15,8 +15,8 @@ public class Day20 {
 
         // Konversi
         String nilainim = String.valueOf(nim);
-        String nilaiumur = String.valueOf(umur);
-        String nilaitinggi = String.valueOf(tinggibadan);
+        String nilaiumur = Integer.toString(umur);
+        String nilaitinggi = tinggibadan + "";
 
         // Penggabungan
         String gabungan = nilaiumur + nilaitinggi;
