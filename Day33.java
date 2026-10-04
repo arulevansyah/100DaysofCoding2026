@@ -8,7 +8,7 @@ public class Day33 {
         System.out.print("Masukkan Kehadiran\t: ");
         boolean kehadiran = s.nextBoolean();
 
-        if (nilai >=70 && Kehadiran ){
+        if (nilai >=70 && kehadiran ){
             System.out.println("SELAMAT KAMU LULUS!");
         } else {
             System.out.println("MAAF KAMU TIDAK LULUS!");
