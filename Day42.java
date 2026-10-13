@@ -9,7 +9,7 @@ public class Day42 {
         System.out.print("Masukkan Potongan Bulanan: ");
         double potongan = s.nextDouble();
 
-        double gajibersih = (gajipokok - potongan);
+        double gajibersih = gajipokok - potongan;
 
         if (gajibersih == 0 && gajipokok > 0) {
             System.out.println("Gaji Bersih Nol: Harap Hubungi HRD!");
