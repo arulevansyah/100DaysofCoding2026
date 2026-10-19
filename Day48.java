@@ -26,11 +26,15 @@ public class Day48 {
             if (b != 0) {
                 System.out.println("Hasil: " + (a / b));
             } else {
-                System.out.println("Tidak Bisa Membagi Dengan Nol!");
+                System.out.println("Tidak Valid!");
             }
             break;
             case '%':
-            System.out.println("Hasil: " + (a % b));
+            if (b != 0) {
+                System.out.println("Hasil: " + (a % b));
+            } else {
+                System.out.println("Tidak Valid!");
+            }
             break;
             default:
             System.out.println("Operator Tidak Valid!");
