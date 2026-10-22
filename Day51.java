@@ -1,16 +1,19 @@
 import java.util.Scanner;
-public class latihan {
+public class Day51 {
     public static void main(String[] args) {
-    Scanner in = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
+        System.out.print("Masukkan Tinggi Segitiga: ");
+        int tinggi = s.nextInt();
 
-    System.out.print("Masukkan Tinggi Segitiga: ");
-    int angka = in.nextInt();
-    
-    for (int baris = 1; baris <= angka; baris++) {
-    for (int kolom = 1; kolom <= baris; kolom++) {
-        System.out.print(kolom + " ");
+        for (int i = 1; i <= tinggi; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
+
+
+
+        s.close();
     }
-        System.out.println();
-   }
- }
 }
