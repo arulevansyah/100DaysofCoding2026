@@ -6,7 +6,7 @@ public class Day65 {
         int a = s.nextInt();
 
         for (int i = 1; i <= a; i++) {
-            System.out.println("|");
+            System.out.println("*");
         }
 
         s.close();
